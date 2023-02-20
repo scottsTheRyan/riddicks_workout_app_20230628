@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #F000000;
+    color: #000000;
     font-size: 25px;
     border-radius: 4px;
     position: absolute;
@@ -95,6 +95,7 @@ body {
   .search-btn:hover {
     color: #FF2625 !important;
     border: 1px solid #000000 !important;
+    border-radius: 30px;
   }
   
   .exercise-video {
