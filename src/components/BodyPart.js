@@ -9,8 +9,8 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     justifyContent="center"
     className="bodyPart-card"
     sx={bodyPart === item ? { 
-      borderTop: '3px solid #000000',
-      borderBottom: '3px solid #000000', 
+      borderTop: '0px solid #000000',
+      borderBottom: '0px solid #000000', 
       background: '#dcdce0', 
       borderRadius: '8px', 
       width: '200px', 
@@ -31,7 +31,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
       window.scrollTo({ top: 1550, left: 100, behavior: 'smooth' });
     }}
   >
-    <img src={Icon} alt="dumbbell" style={{ width: 'auto', height: '100%', borderRadius: "6px" }} />
+    {/* <img src={Icon} alt="dumbbell" style={{ width: '100%', height: '75%', borderRadius: "6px" }} /> */}
     <Typography 
       fontSize="24px" 
       fontWeight="bold" 

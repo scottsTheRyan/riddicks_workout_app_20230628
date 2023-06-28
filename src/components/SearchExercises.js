@@ -68,7 +68,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
                   xs: '350px' 
                 }, 
               backgroundColor: '#fff', 
-              borderRadius: '40px' 
+              borderRadius: '0px' 
             }}
             height="75px"
             value={search}

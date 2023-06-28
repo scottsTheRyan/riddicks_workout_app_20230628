@@ -36,10 +36,9 @@ const Detail = ({ exerciseDetail }) => {
         <Typography 
             sx={{ fontSize: { lg: '24px', xs: '18px' } }} 
             color="#4F4C4C">
-            Exercises keep bioraptors away{' '}
-                <span style={{ textTransform: 'capitalize' }}>{name}</span> is one
-                    of the best <br /> exercises to target your {target}. This helps you improve your{' '}
-                 <br /> bioraptor fighting strength.
+            Exercise keeps bioraptors away (kinda).{' '}
+                Leverage the <span style={{ textTransform: 'capitalize' }}>{name}</span> to target your {target} and let those pesky bioraptors know ... you work oooooutt.{' '}
+                   
         </Typography>
         {extraDetail?.map((item) => (
           <Stack 
